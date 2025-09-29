@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Solar Lamp",
+    "slug": "solar-lamp",
+    "date": "2025-09-01",
+    "excerpt": "A battery-friendly solar lamp for small gardens.",
+    "content": "Detailed description of the Solar Lamp project...",
+    "image": "/images/projects/solar-lamp.jpg"
+  },
+  {
+    "title": "Garden Sensor",
+    "slug": "garden-sensor",
+    "date": "2025-06-12",
+    "excerpt": "Soil moisture and temperature monitor.",
+    "content": "Detailed description of the Garden Sensor project...",
+    "image": "/images/projects/garden-sensor.jpg"
+  },
+  {
+    "title": "Rainwater Collector",
+    "slug": "rainwater-collector",
+    "date": "2025-09-15",
+    "excerpt": "Collects and filters rainwater for reuse.",
+    "content": "Detailed description of the Rainwater Collector project...",
+    "image": "/images/projects/rainwater-collector.jpg"
+  },
+  {
+    "title": "Smart Irrigation",
+    "slug": "smart-irrigation",
+    "date": "2025-08-20",
+    "excerpt": "Automated watering system with soil moisture feedback.",
+    "content": "Detailed description of the Smart Irrigation project...",
+    "image": "/images/projects/smart-irrigation.jpg"
+  },
+  {
+    "title": "Compost Monitor",
+    "slug": "compost-monitor",
+    "date": "2025-07-05",
+    "excerpt": "Monitors temperature and humidity of compost piles.",
+    "content": "Detailed description of the Compost Monitor project...",
+    "image": "/images/projects/compost-monitor.jpg"
+  }
+]

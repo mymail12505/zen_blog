@@ -1,0 +1,23 @@
+---
+pagination:
+  data: projects
+  size: 1
+  alias: project
+permalink: "/projects/{{ project.slug }}/"
+layout: layouts/base.njk
+---
+
+<div class="container py-5">
+  <div class="card shadow-sm">
+    {% if project.image %}
+      <img src="{{ project.image }}" class="card-img-top" alt="{{ project.title }}">
+    {% endif %}
+
+    <div class="card-body">
+      <h1 class="card-title">{{ project.title }}</h1>
+      <p class="text-muted"><em>{{ project.date | date("yyyy-LL-dd") }}</em></p>
+      <p class="card-text">{{ project.content }}</p>
+      <a href="/projects/" class="btn btn-secondary mt-3">← Back to projects</a>
+    </div>
+  </div>
+</div>

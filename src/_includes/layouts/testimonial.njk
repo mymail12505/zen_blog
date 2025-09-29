@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="container py-5">
+  <div class="card shadow-sm text-center">
+    {% if image %}
+      <img src="{{ image }}" class="card-img-top rounded-circle mx-auto mt-3" style="width: 150px; height: 150px; object-fit: cover;" alt="{{ name }}">
+    {% endif %}
+
+    <div class="card-body">
+      <h1 class="card-title">{{ name }}</h1>
+      {% if role %}
+        <p class="text-muted mb-2">{{ role }}</p>
+      {% endif %}
+      {% if date %}
+        <p class="text-muted mb-3">
+          <time datetime="{{ date | date('yyyy-LL-dd') }}">
+            {{ date | date("LLLL dd, yyyy") }}
+          </time>
+        </p>
+      {% endif %}
+
+      <blockquote class="blockquote">
+        <p class="card-text">"{{ content | safe }}"</p>
+      </blockquote>
+
+      <hr>
+      <a href="/testimonials/" class="btn btn-secondary mt-3">← Back to all testimonials</a>
+    </div>
+  </div>
+</div>

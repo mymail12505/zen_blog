@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+title: Blog
+pagination:
+  data: collections.posts
+  size: 3
+  alias: posts
+  reverse: true
+permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+
+<div class="container py-5">
+  <h1 class="mb-4">Blog</h1>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    {% for post in posts %}
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          {% if post.data.image %}
+            <img src="{{ post.data.image }}" class="card-img-top" alt="{{ post.data.title }}">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ post.data.title }}</h5>
+            <p class="text-muted small">{{ post.date | date("yyyy-LL-dd") }}</p>
+            {% if post.data.excerpt %}
+              <p class="card-text">{{ post.data.excerpt }}</p>
+            {% endif %}
+            <a href="{{ post.url }}" class="btn btn-primary mt-2">Read More</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <nav class="mt-4 d-flex justify-content-center">
+    <ul class="pagination">
+      {% if pagination.href.previous %}
+        <li class="page-item">
+          <a class="page-link" href="{{ pagination.href.previous }}">&laquo; Prev</a>
+        </li>
+      {% endif %}
+
+      {% for pageEntry in pagination.pages %}
+        <li class="page-item {% if pagination.pageNumber == loop.index0 %}active{% endif %}">
+          <a class="page-link" href="{{ pagination.hrefs[loop.index0] }}">{{ loop.index }}</a>
+        </li>
+      {% endfor %}
+
+      {% if pagination.href.next %}
+        <li class="page-item">
+          <a class="page-link" href="{{ pagination.href.next }}">Next &raquo;</a>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
+</div>

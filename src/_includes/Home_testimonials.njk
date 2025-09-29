@@ -1,0 +1,21 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {% for t in collections.testimonial | limit(3) %}
+    <div class="col">
+      <div class="card h-100 shadow-sm text-center">
+        {% if t.data.image %}
+          <img src="{{ t.data.image }}" class="card-img-top rounded-circle mx-auto mt-3" style="width: 100px; height: 100px; object-fit: cover;" alt="{{ t.data.name }}">
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title">{{ t.data.name }}</h5>
+          {% if t.data.role %}
+            <p class="text-muted small mb-2">{{ t.data.role }}</p>
+          {% endif %}
+          <blockquote class="blockquote mb-0">
+            <p class="card-text">"{{ t.templateContent | safe }}"</p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+<p class="mt-3"><a href="/testimonials/">View all testimonials →</a></p>
