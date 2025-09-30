@@ -1,16 +1,22 @@
 backend:
   name: git-gateway
-  branch: main   # or master if your repo uses master
-media_folder: "src/images/uploads"
-public_folder: "/images/uploads"
+  branch: main   # change to 'master' if that is your repo’s default branch
+
+media_folder: "src/images"     # uploaded files saved here in repo
+public_folder: "/images"       # site references these paths
 
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "src/posts"
+    folder: "src/blog/"        # adjust if your posts are under src/posts/
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
