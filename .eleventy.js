@@ -12,6 +12,7 @@ module.exports = function (eleventyConfig) {
   // Pass "now" into all templates as a global data value
   eleventyConfig.addGlobalData("now", new Date());
   eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy('src/admin');
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/images"); // Assuming images are in a folder
 

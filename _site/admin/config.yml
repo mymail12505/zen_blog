@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main   # change to 'master' if that is your repo’s default branch
+
+media_folder: "src/images"     # where uploaded files are saved in the repo
+public_folder: "/images"       # how those files are referenced in the built site
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/blog/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: "post" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
