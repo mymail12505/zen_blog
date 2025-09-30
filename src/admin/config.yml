@@ -20,3 +20,14 @@ collections:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Excerpt", name: "excerpt", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+      
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "src/testimonials/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Quote", name: "body", widget: "markdown" }
