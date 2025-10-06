@@ -1,7 +1,7 @@
 ---
 title: "发心立志 · 用心体验"
 date: 2025-10-05
-tags: ["禅", "Zen", "公案", "Awakening"]
+tags: ["禅", "Zen", "公案", "Awakening" ,"blog"]
 image: "/images/zen-dedication-and-experience.jpg"
 excerpt: "发心立志，是道之始；用心体验，是道之成。To set out with true intention is the beginning of the Way; to live it with awareness is its fulfillment."
 layout: layouts/post.njk

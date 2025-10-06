@@ -1,7 +1,7 @@
 ---
 title: "哪一块肉不是好肉哪？——磐山悟道的故事"
 date: 2025-10-05
-tags: ["禅", "Zen", "公案", "Awakening"]
+tags: ["禅", "Zen", "公案", "Awakening", "blog"]
 image: "/images/Master Panshan.jpg"
 layout: layouts/post.njk
 ---

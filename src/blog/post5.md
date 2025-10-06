@@ -1,7 +1,7 @@
 ---
 title: "我宗無語句，實無一法與人"
 date: 2025-09-28
-tags: posts
+tags: ["posts","blog"]
 layout: layouts/post.njk
 image: "/images/Zen beyong words.jpg"
 excerpt: "The Essence of Zen Beyond Words."

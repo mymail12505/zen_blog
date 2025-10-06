@@ -5,6 +5,7 @@ tags: posts
 layout: layouts/post.njk
 image: "/images/article-4.jpg"
 excerpt: "The third post covers more advanced topics in our series."
+eleventyExcludeFromCollections: true
 ---
 
 

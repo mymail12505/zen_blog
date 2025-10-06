@@ -1,7 +1,7 @@
 ---
 title: "似机开悟 · Sudden Enlightenment"
 date: 2025-10-05
-tags: ["禅", "Zen", "公案", "Awakening"]
+tags: ["禅", "Zen", "公案", "Awakening","blog"]
 image: "/images/zen-sudden-enlightenment.jpg"
 excerpt: "一语触心，顿然明白；悟，不在远方，只在当下。A single phrase can awaken the heart — enlightenment is not elsewhere but here."
 layout: layouts/post.njk
