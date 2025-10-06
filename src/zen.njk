@@ -1,0 +1,29 @@
+---
+title: "Zen · 禅系列"
+layout: layouts/base.njk
+permalink: "/zen/"
+---
+
+<div class="container py-5">
+  <h1 class="mb-4 text-center">🪷 禅系列 Zen Series</h1>
+  <p class="text-center text-muted mb-5">
+    感悟当下 · 明心见性 · Practice mindfulness and see your true nature.
+  </p>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% for post in collections.zen | reverse %}
+    <div class="col">
+      <article class="card h-100 shadow-sm border-0">
+        {% if post.data.image %}
+          <img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="card-img-top rounded-top">
+        {% endif %}
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">{{ post.data.title }}</h5>
+          <p class="card-text text-muted small mb-3">{{ post.data.excerpt }}</p>
+          <a href="{{ post.url }}" class="btn btn-outline-dark mt-auto">阅读全文 · Read More</a>
+        </div>
+      </article>
+    </div>
+    {% endfor %}
+  </div>
+</div>

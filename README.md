@@ -1,6 +1,6 @@
 
 ```
-11ty_template_1
+zen_blog-main
 ├─ .eleventy.js
 ├─ folder-tree.txt
 ├─ package-lock.json
@@ -9,12 +9,13 @@
 │  ├─ admin
 │  │  └─ config.yml
 │  ├─ blog
+│  │  ├─ dedication-and-experience.md
 │  │  ├─ index.njk
+│  │  ├─ panshan-enlightenment.md
 │  │  ├─ post1.md
-│  │  ├─ post2.md
-│  │  ├─ post3.md
-│  │  ├─ post4.md
-│  │  └─ post5.md
+│  │  ├─ post5.md
+│  │  ├─ sudden-enlightenment.md
+│  │  └─ what-is-zen.md
 │  ├─ contact.njk
 │  ├─ css
 │  │  └─ styles.css
@@ -28,6 +29,7 @@
 │  │  ├─ feature1.jpg
 │  │  ├─ feature2.jpg
 │  │  ├─ feature3.jpg
+│  │  ├─ Master Panshan.jpg
 │  │  ├─ profile.png
 │  │  ├─ projects
 │  │  │  ├─ compost-monitor.jpg
@@ -35,7 +37,11 @@
 │  │  │  ├─ rainwater-collector.jpg
 │  │  │  ├─ smart-irrigation.jpg
 │  │  │  └─ solar-lamp.jpg
-│  │  └─ Zen beyong words.jpg
+│  │  ├─ what-is-zen.jpg
+│  │  ├─ Zen beyong words.jpg
+│  │  ├─ zen-dedication-and-experience.jpg
+│  │  ├─ zen-sudden-enlightenment.jpg
+│  │  └─ zen-what-is-zen.jpg
 │  ├─ index.njk
 │  ├─ projects
 │  │  ├─ index.njk
@@ -45,6 +51,7 @@
 │  │  ├─ index.njk
 │  │  ├─ jane.md
 │  │  └─ john.md
+│  ├─ zen.njk
 │  ├─ _data
 │  │  └─ projects.json
 │  └─ _includes
@@ -58,13 +65,12 @@
    ├─ admin
    │  └─ config.yml
    ├─ blog
-   │  ├─ page
-   │  │  └─ 2
+   │  ├─ dedication-and-experience
+   │  ├─ panshan-enlightenment
    │  ├─ post1
-   │  ├─ post2
-   │  ├─ post3
-   │  ├─ post4
-   │  └─ post5
+   │  ├─ post5
+   │  ├─ sudden-enlightenment
+   │  └─ what-is-zen
    ├─ contact
    ├─ css
    │  └─ styles.css
@@ -78,6 +84,8 @@
    │  ├─ feature1.jpg
    │  ├─ feature2.jpg
    │  ├─ feature3.jpg
+   │  ├─ Master Panshan.jpeg
+   │  ├─ Master Panshan.jpg
    │  ├─ profile.png
    │  ├─ projects
    │  │  ├─ compost-monitor.jpg
@@ -85,16 +93,21 @@
    │  │  ├─ rainwater-collector.jpg
    │  │  ├─ smart-irrigation.jpg
    │  │  └─ solar-lamp.jpg
-   │  └─ Zen beyong words.jpg
+   │  ├─ what-is-zen.jpg
+   │  ├─ Zen beyong words.jpg
+   │  ├─ zen-dedication-and-experience.jpg
+   │  ├─ zen-sudden-enlightenment.jpg
+   │  └─ zen-what-is-zen.jpg
    ├─ projects
    │  ├─ compost-monitor
    │  ├─ garden-sensor
    │  ├─ rainwater-collector
    │  ├─ smart-irrigation
    │  └─ solar-lamp
-   └─ testimonials
-      ├─ alex
-      ├─ jane
-      └─ john
+   ├─ testimonials
+   │  ├─ alex
+   │  ├─ jane
+   │  └─ john
+   └─ zen
 
 ```

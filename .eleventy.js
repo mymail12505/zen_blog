@@ -9,6 +9,19 @@ module.exports = function (eleventyConfig) {
     return arr.slice(0, limit);
   });
 
+  // Create blog collection
+  eleventyConfig.addCollection("blog", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/blog/*.md").sort((a, b) => {
+      return b.date - a.date;
+    });
+  });
+
+ // Zen subset (based on tags)
+  eleventyConfig.addCollection("zen", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/blog/*.md").filter(post =>
+      post.data.tags && (post.data.tags.includes("禅") || post.data.tags.includes("Zen"))
+    );
+  });
   // Pass "now" into all templates as a global data value
   eleventyConfig.addGlobalData("now", new Date());
   eleventyConfig.addPassthroughCopy("src/css");
