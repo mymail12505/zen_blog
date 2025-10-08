@@ -19,6 +19,7 @@ permalink: "/blog/"
       <article class="card h-100 shadow-sm border-0">
         {% if post.data.image %}
           <img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="card-img-top rounded-top">
+       
         {% endif %}
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">{{ post.data.title }}</h5>
@@ -30,8 +31,7 @@ permalink: "/blog/"
     {% endfor %}
   </div>
 
-  {% if pagination.href.next %}
-  <div class="text-center mt-4">
+  {% if pagination.href.next %}  <div class="text-center mt-4">
     <a href="{{ pagination.href.next }}" class="btn btn-outline-secondary">Next Page →</a>
   </div>
   {% endif %}

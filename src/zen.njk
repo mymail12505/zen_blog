@@ -19,6 +19,7 @@ permalink: "/zen/"
         {% endif %}        
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">{{ post.data.title }}</h5>
+          {{ post.data.date | date("LLLL dd, yyyy") }}
           <p class="card-text text-muted small mb-3">{{ post.data.excerpt }}</p>
           <a href="{{ post.url }}" class="btn btn-outline-dark mt-auto">阅读全文 · Read More</a>
         </div>
