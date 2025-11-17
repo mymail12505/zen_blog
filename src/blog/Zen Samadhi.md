@@ -1,5 +1,5 @@
 ---
-title: "禅修三昧. Zen Samadhi"
+title: "禅修三昧.Zen Samadhi"
 date: 2025-11-10
 lang: zh-en
 tags: [禅修,Zen,心性,Samadhi,悟道]
