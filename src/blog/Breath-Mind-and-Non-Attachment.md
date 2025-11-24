@@ -1,14 +1,15 @@
 ---
-title: "Breath, Mind, and Non-Attachment · 守息与无所依"
-date: 2025-11-19
+title: Breath, Mind, and Non-Attachment · 守息与无所依
+date: 2025-10-19T00:00:00.000+08:00
 tags:
   - meditation
   - zen
   - tiantai
   - dharma
 lang: zh-en
-image: "/images/Breath-Mind-and-Non-Attachment.jpg"
+image: /images/Breath-Mind-and-Non-Attachment.jpg
 layout: layouts/post.njk
+excerpt: change Date
 ---
 
 # **Breath, Mind, and Non-Attachment**  
