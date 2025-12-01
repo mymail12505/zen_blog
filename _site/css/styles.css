@@ -222,3 +222,11 @@ footer.site-footer { margin-top:26px; text-align:center; color:var(--muted); fon
 .site-footer a:hover {
   color: #ff9800; /* highlight on hover */
 }
+
+.responsive-img {
+  max-width: 100%;
+  width: 300px;        /* acts as preferred width */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
