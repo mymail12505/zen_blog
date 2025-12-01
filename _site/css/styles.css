@@ -230,3 +230,17 @@ footer.site-footer { margin-top:26px; text-align:center; color:var(--muted); fon
   display: block;
   margin: 0 auto;
 }
+article img,
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.2rem auto;
+}
+/* Make Markdown images responsive inside blog content */
+.card-text img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.2rem auto;
+}

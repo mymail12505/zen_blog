@@ -18,9 +18,14 @@ image: "/images/dharma-cloud-moon.jpg"
 > **摘要**：本文将达摩《二入四行》之“理入/行入”与《起信论》之“本觉/始觉/不觉”体系整合，提出“云（烦恼）—月（真如）”的动态模型，并给出可执行的四步回归法与教学建议。
 
 <!-- cover image -->
-<!-- <img src="/images/Bodhidharma.jpg" alt="Bodhidharma" class="responsive-img"> -->
-<img src="/images/Bodhidharma.jpg" alt="Bodhidharma"
-     style="max-width:100%;width:300px;height:auto;display:block;margin:auto;">
+
+<div class="responsive-img text-center">
+  <img 
+    src="/images/dharma-cloud-moon.jpg" 
+    alt="Bodhidharma cloud–moon metaphor illustration"
+    style="max-width:100%;width:600px;height:auto;display:block;margin:auto;"
+  >
+</div>
 ## 目录
 1. 导论  
 2. 文献与方法  
@@ -495,7 +500,14 @@ Thus, the Four Practices embody the Diamond Sutra in lived experience.
 四行（具体方法）
 
 三者互相贯通，形成完整的禅修体系。
-![Model Diagram](/images/cloud-moon-model.svg)
+
+<div class="responsive-img text-center">
+  <img 
+    src="/images/cloud-moon-model.jpg" 
+    alt="cloud-moon-model"
+    style="max-width:100%;width:650px;height:auto;display:block;margin:auto;"
+  >
+</div>
 
 ---
 ### 《云遮月心要经》（Pseudo-Sutra Style）

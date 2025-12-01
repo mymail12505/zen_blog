@@ -51,7 +51,15 @@ module.exports = function(eleventyConfig) {
         (post.data.tags.includes("禅") || post.data.tags.includes("Zen"))
       );
   });
-
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addShortcode("cover", function(src, alt) {
+    return `
+      <img src="${src}"
+           alt="${alt}"
+           style="max-width:100%;height:auto;display:block;margin:auto;">
+    `;
+  });
+};
   // ------------------------------------
   // Global data
   // ------------------------------------
