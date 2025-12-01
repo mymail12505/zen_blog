@@ -18,7 +18,10 @@ image: "/images/dharma-cloud-moon.jpg"
 > **摘要**：本文将达摩《二入四行》之“理入/行入”与《起信论》之“本觉/始觉/不觉”体系整合，提出“云（烦恼）—月（真如）”的动态模型，并给出可执行的四步回归法与教学建议。
 
 <!-- cover image -->
-![Cloud–Moon Cover](/images/Bodhidharma.jpg)
+
+<img src="/images/Bodhidharma.jpg" width="350">
+
+
 
 ## 目录
 1. 导论  
