@@ -1,0 +1,86 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title desc" role="img">
+  <title id="title">Cloud–Moon Model / 云月模型</title>
+  <desc id="desc">Diagram showing Original Enlightenment (moon), Initial Awakening (moonlight), Non-Awakening (clouds), mutual perfuming arrows, and Four Practices.</desc>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#fffdf8"></rect>
+
+  <!-- Moon (本觉) -->
+  <g id="moonGroup" transform="translate(300,200)">
+    <circle cx="0" cy="0" r="90" fill="#fffbe6" stroke="#ffd27f" stroke-width="3"></circle>
+    <circle cx="-10" cy="-6" r="70" fill="#fff8d9" opacity="0.95"></circle>
+    <text x="0" y="120" font-size="18" font-family="Noto Serif, Georgia, serif" text-anchor="middle" fill="#333">本觉</text>
+    <text x="0" y="142" font-size="14" font-family="Noto Sans, Arial, sans-serif" text-anchor="middle" fill="#666">Original Enlightenment</text>
+  </g>
+
+  <!-- Moonlight (始觉) - rays -->
+  <g id="moonlight" transform="translate(420,180)">
+    <!-- stylized ray -->
+    <path d="M-50,20 C40,0 60,-40 160,-40" stroke="#f7e7b7" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9"></path>
+    <path d="M-40,40 C60,20 80,-20 200,-20" stroke="#f7e7b7" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"></path>
+    <text x="200" y="-10" font-size="14" font-family="Noto Sans, Arial, sans-serif" fill="#444">始觉 / Initial Awakening</text>
+  </g>
+
+  <!-- Clouds (不觉) -->
+  <g id="clouds" transform="translate(750,220)">
+    <g id="cloud1" transform="translate(-60, -20)">
+      <ellipse cx="0" cy="0" rx="90" ry="36" fill="#f0f1f3" stroke="#d9dbe0"></ellipse>
+      <ellipse cx="40" cy="-18" rx="58" ry="28" fill="#f4f5f7" stroke="#d9dbe0"></ellipse>
+      <ellipse cx="-40" cy="-12" rx="56" ry="26" fill="#eceef0" stroke="#d9dbe0"></ellipse>
+    </g>
+    <g id="cloud2" transform="translate(40,40)">
+      <ellipse cx="0" cy="0" rx="85" ry="30" fill="#eef0f3" stroke="#d9dbe0"></ellipse>
+      <ellipse cx="34" cy="-16" rx="50" ry="24" fill="#f3f4f6" stroke="#d9dbe0"></ellipse>
+    </g>
+    <text x="80" y="100" font-size="18" font-family="Noto Serif, Georgia, serif" fill="#333">不觉</text>
+    <text x="80" y="122" font-size="14" font-family="Noto Sans, Arial, sans-serif" fill="#666">Non-Awakening / Clouds (Delusion)</text>
+  </g>
+
+  <!-- Bidirectional arrows: Moon <-> Clouds -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888"></path>
+    </marker>
+  </defs>
+
+  <!-- Arrow: Clouds -> Moon (遮蔽 / Delusion perfuming Suchness) -->
+  <path d="M680,250 C620,210 540,200 390,190" stroke="#b77" stroke-width="3" fill="none" marker-end="url(#arrow)" opacity="0.9"></path>
+  <text x="540" y="180" font-size="13" font-family="Noto Sans, Arial, sans-serif" fill="#9a5">烦恼熏真如</text>
+  <text x="540" y="196" font-size="12" font-family="Noto Sans, Arial, sans-serif" fill="#777">Delusion → Suchness</text>
+
+  <!-- Arrow: Moon -> Clouds (真如熏烦恼 / Suchness perfuming Delusion) -->
+  <path d="M360,220 C520,240 640,260 720,270" stroke="#5a8" stroke-width="3" fill="none" marker-end="url(#arrow)" opacity="0.9"></path>
+  <text x="520" y="260" font-size="13" font-family="Noto Sans, Arial, sans-serif" fill="#2a6">真如熏烦恼</text>
+  <text x="520" y="276" font-size="12" font-family="Noto Sans, Arial, sans-serif" fill="#777">Suchness → Delusion</text>
+
+  <!-- Four Practices box -->
+  <g id="practices" transform="translate(160,420)">
+    <rect x="0" y="0" width="880" height="170" rx="12" ry="12" fill="#fffaf0" stroke="#efd8a6"></rect>
+    <text x="440" y="28" font-size="18" font-family="Noto Serif, Georgia, serif" text-anchor="middle" fill="#333">四行 / Four Practices</text>
+    <g transform="translate(40,48)" font-family="Noto Sans, Arial, sans-serif" fill="#444">
+      <text x="0" y="0" font-size="14">• 报怨行 / Requiting Enmity</text>
+      <text x="0" y="26" font-size="14">• 随缘行 / Following Conditions</text>
+      <text x="0" y="52" font-size="14">• 无所求行 / Non-Seeking</text>
+      <text x="0" y="78" font-size="14">• 称法行 / Accordance with Dharma</text>
+    </g>
+    <!-- arrow from practices to clouds -->
+    <path d="M440,12 C560,80 640,140 700,190" stroke="#c68" stroke-width="2.5" fill="none" marker-end="url(#arrow)" opacity="0.9"></path>
+    <text x="590" y="150" font-size="12" font-family="Noto Sans, Arial, sans-serif" fill="#777" text-anchor="middle">支持真如熏化 / Support Suchness perfuming</text>
+  </g>
+
+  <!-- Wind / Conditions -->
+  <g transform="translate(960,80)" font-family="Noto Sans, Arial, sans-serif" fill="#666">
+    <path d="M0,18 C25,2 55,2 80,18 C105,34 135,34 160,18" stroke="#bfc" stroke-width="3" fill="none" opacity="0.8"></path>
+    <text x="80" y="42" font-size="14" text-anchor="middle">风 / Conditions</text>
+  </g>
+
+  <!-- small legend -->
+  <g transform="translate(40,600)" font-family="Noto Sans, Arial, sans-serif" fill="#444">
+    <text x="0" y="0" font-size="13">说明：</text>
+    <text x="0" y="18" font-size="12">月 = 本觉 / Moon = Original Enlightenment</text>
+    <text x="0" y="34" font-size="12">月光 = 始觉 / Moonlight = Initial Awakening</text>
+    <text x="0" y="50" font-size="12">云 = 不觉 / Clouds = Non-Awakening (Delusion)</text>
+  </g>
+
+</svg>

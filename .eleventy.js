@@ -22,6 +22,7 @@ module.exports = function (eleventyConfig) {
       post.data.tags && (post.data.tags.includes("禅") || post.data.tags.includes("Zen"))
     );
   });
+
   // Pass "now" into all templates as a global data value
   eleventyConfig.addGlobalData("now", new Date());
   eleventyConfig.addPassthroughCopy("src/css");
