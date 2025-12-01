@@ -21,7 +21,7 @@ image: "/images/dharma-cloud-moon.jpg"
 
 <div class="responsive-img text-center">
   <img 
-    src="/images/dharma-cloud-moon.jpg" 
+    src="/images/Bodhidharma.jpg" 
     alt="Bodhidharma cloud–moon metaphor illustration"
     style="max-width:100%;width:600px;height:auto;display:block;margin:auto;"
   >
