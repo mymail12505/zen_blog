@@ -13,7 +13,7 @@ image: "/images/dharma-cloud-moon.jpg"
 ---
 
 
-*Bodhidharma’s Two Entrances & Four Practices and the Interplay of Original, Initial, and Non-Awareness: A Cloud–Moon Reading of Suchness's Inner and Outer Perfuming*
+*Bodhidharma’s Two Entrances and Four Practices and the Interplay of Original, Initial, and Non-Awareness: A Cloud–Moon Reading of Suchness's Inner and Outer Perfuming*
 
 > **摘要**：本文将达摩《二入四行观》之“理入/行入”与《起信论》之“本觉/始觉/不觉”体系整合，提出“云（烦恼）—月（真如）”的动态模型，并给出可执行的四步回归法与教学建议。
 
