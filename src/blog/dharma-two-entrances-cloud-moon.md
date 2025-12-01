@@ -19,7 +19,7 @@ image: "/images/dharma-cloud-moon.jpg"
 
 <!-- cover image -->
 
-<img src="/images/Bodhidharma.jpg" width="350">
+<img src="/images/Bodhidharma.jpg" width="300">
 
 
 
