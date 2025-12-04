@@ -238,6 +238,59 @@ This becomes a complete map of mind structure × spiritual dynamics × practice 
 
 ---
 
+# 达摩体系与起信论体系对照
+<table class="table table-striped table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">达摩体系</th>
+      <th scope="col">起信论体系</th>
+      <th scope="col">说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>理入(悟真如) </th>
+      <td>本觉  </td>
+      <td>直接体验真如，非思辨所得  </td>
+    </tr>
+    <tr>
+      <th>行入（四行）</th>
+      <td>始觉</td>
+      <td>觉性在行为中的展开</td>
+    </tr>
+    <tr>
+      <th>反复实践</th>
+         <td>始觉增明</td>
+      <td>真如力量渐胜</td>
+    </tr>
+    <tr>
+      <th>习气妄念现起</th>
+      <td>不觉／烦恼熏真如</td>
+      <td>旧有无明作用</td>
+    </tr>
+    <tr>
+      <th>妄念不起</th>
+      <td>本觉显现、习气熄灭</td>
+      <td>菩萨行的成熟</td>
+    </tr>
+     </tbody>
+</table>
+
+
+## 一图看懂：达摩二入（理入 & 行入）
+
+<!-- cover image Entrance of Principle -->
+
+<div class="responsive-img text-center">
+  <img 
+    src="/images/Entrance of Principle.jpg" 
+    alt="Entrance of Principle"
+    style="max-width:100%;width:600px;height:auto;display:block;margin:auto;"
+  >
+</div>
+
+---
+
 ### VI. 结语：实践的核心｜Conclusion: The Heart of Practice
 中文
 
