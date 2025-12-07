@@ -2,13 +2,13 @@
 layout: layouts/base.njk
 ---
 
-<div class="container py-5">
+<div class="container  border border-success py-5">
 
-  <div class="card shadow-sm">
+  <div class="card shadow-sm bg-dark text-white">
   {% if image %}
       <img src="{{ image }}" class="card-img-top" alt="{{ title }}">
     {% endif %}
-      <div class="card-body">
+      <div class="card-body display-4">
       <h1 class="card-title">{{ title }}</h1>
       <p class="text-muted mb-3">
         <time datetime="{{ date | date('yyyy-LL-dd') }}">
@@ -16,7 +16,7 @@ layout: layouts/base.njk
         </time>
       </p>
 
-      <div class="card-text">
+      <div class="fs-4 card-text">
         {{ content | safe }}
       </div>
 
