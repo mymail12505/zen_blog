@@ -1,15 +1,12 @@
      {# analytics.njk #}
 {% if site.env == "production" and analytics.measurementId %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ analytics.measurementId }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KNCW99ZBRC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', '{{ analytics.measurementId }}', {
-      // optional: send_page_view:false if you plan to handle page_view manually
-      // 'send_page_view': false
-    });
-  </script>
+  gtag('config', 'G-KNCW99ZBRC');
+</script>
 {% endif %}
