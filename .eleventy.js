@@ -4,6 +4,7 @@ const Image = require("@11ty/eleventy-img");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const quotes = require("./src/_data/quotes.json");
+const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = function(eleventyConfig) {
   // ------------------------------------
@@ -18,6 +19,15 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.setLibrary("md", md);
+  // ------------------------------------
+  // pluginSitemap
+  // ------------------------------------
+
+eleventyConfig.addPlugin(pluginSitemap, {
+        sitemap: {
+          hostname: "https://zenblog12505.netlify.app/", // Replace with your actual domain
+        },
+      });
 
   //
   // ----------------------------
@@ -146,6 +156,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/images");
+    // Copy the whole icons folder to the output root (keeps path /assets/icons/...)
+  eleventyConfig.addPassthroughCopy({ "src/assets/icons": "assets/icons" });
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy({"src/googlea3296d9d51a1c824.html": "googlea3296d9d51a1c824.html"});
 
   // ------------------------------------
   // Optional: server options (uncomment if needed)
