@@ -149,20 +149,3 @@ Breath comes—awareness comes. Breath goes—awareness remains.
 
 ---
 
-## 封面图片提示词（AI 作画）
-
-### Cover Image Prompt (AI Art)
-
-**中文**：
-
-> 春日禅意场景，微风拂动，落叶缓缓飘落，一位背对画面的打坐者坐于树下，画面极简留白，柔和自然光，东方水墨与现代极简融合，温暖淡雅色调，静谧觉知氛围，博客封面构图，高清
-
-**English**:
-
-> A serene Zen-inspired spring scene, gentle wind with falling leaves, a meditating figure seated under a tree facing away, minimalist composition with generous negative space, soft natural light, fusion of Eastern ink painting and modern minimalism, warm muted tones, contemplative atmosphere, blog cover composition, ultra high resolution
-
-**Negative Prompt**:
-
-> cluttered background, harsh lighting, strong contrast, text, watermark, logo, oversaturated colors
-
-**Recommended Ratio**: 16:9
