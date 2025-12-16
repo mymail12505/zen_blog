@@ -79,7 +79,7 @@ eleventyConfig.addPlugin(pluginSitemap, {
       let metadata = await Image(fullSrc, {
         widths: [400, 800, 1200],
         formats: ["avif", "webp", "jpeg"],
-        urlPath: "/images/",
+        urlPath: "cls",
         outputDir: "./_site/images/",
       });
 
