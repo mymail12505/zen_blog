@@ -7,15 +7,17 @@ excerpt: "发心立志，是道之始；用心体验，是道之成。To set out
 layout: layouts/post.njk
 ---
 
-### 禅在未疴之前  
-不积喹步，无以至千里。  
-不积小流，无以成江海。  
+### 禅在未疴之前 
+
+> 不积喹步，无以至千里。  
+ 不积小流，无以成江海。  
 
 ### Before the Illness of the Mind  
 Without accumulating small steps, one cannot reach a thousand miles.  
 Without gathering tiny streams, one cannot form a vast sea.  
 
 ---
+
 
 #### 中文  
 世人多在困厄之时求悟，  

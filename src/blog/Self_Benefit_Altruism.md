@@ -7,7 +7,7 @@ layout: layouts/post.njk
 image: "/images/Self_Benefit_Altruism.jpg"
 ---
 
-## 自利 · 利他 · 春风知落叶  
+
 ## Self-Benefit, Altruism, and the Spring Wind That Knows the Falling Leaves
 
 
