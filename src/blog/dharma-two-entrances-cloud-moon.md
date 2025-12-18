@@ -27,20 +27,31 @@ image: "/images/dharma-cloud-moon.jpg"
   >
 </div>
 
-## 目录
-1. 导论  
-2. 文献与方法  
-3. 达摩二入四行概述  
-4. 本觉—始觉—不觉的架构  
-5. 真如内熏/外熏的双向机制  
-6. 学理整合与模型  
-7. 实修建议：四步回归法  
-8. 结论  
-9. 附录：金刚经式浅释（经文体）  
+
+### 目录
+
+1. [导论](#1.-introduction-%7C-导论)
+2. [本觉、始觉、不觉的结构](#2.-structure-of-original%2C-initial%2C-and-non-awakening-%7C-本觉、始觉、不觉的结构) 
+3. [真如与烦恼的互相熏习](#3.-真如与烦恼的“互相熏习”｜mutual-perfuming%3A-suchness-%26-afflictions)
+4. [达摩二入四行概述](#4.-达摩祖师的二入四行｜bodhidharma’s-two-entrances-and-four-practices)
+5. [二入四行 × 本觉体系：整合地图](#5.-二入四行-×-本觉体系：整合地图｜integrated-map)  
+6. [达摩体系与起信论体系对照](#6-达摩体系与起信论体系对照) 
+7. [一图看懂：达摩二入](#7-一图看懂：达摩二入（理入-%26-行入）)
+8. [结语](#8.-结语：实践的核心｜conclusion%3A-the-heart-of-practice)
+9. [观察、返照与觉性的展开](#9.-观察、返照与觉性的展开｜contemplation%2C-reflexive-illumination%2C-and-the-unfolding-of-awareness) 
+10. [禅修的误区](#10.-禅修的误区：用力、求境、逐念｜common-errors-in-meditation) 
+11. [正修与助缘](#11.-正修与助缘：四行如何“熏习”心性｜direct-practice-and-supportive-conditions)
+12. [本觉如何“转成”始觉](#12.-本觉如何“转成”始觉？｜how-original-awakening-unfolds-into-initial-awakening)
+13. [四行与“金刚经”的空性](#13.-四行与“金刚经”的空性：无我、无取、无住｜the-four-practices-and-the-diamond-sutra) 
+14. [一图看懂：觉悟动力](#14.-一图看懂：觉悟动力-×-修行路径-×-心性结构（文字版）｜one-page-overview-(text-version))
+15. [云遮月心要经](#15.-云遮月心要经-%7C-pseudo-sutra-style)
+
 
 ---
 
-## I. 导论｜Introduction
+
+## 1. Introduction | 导论
+
 中文
 
 中国禅宗的发展以达摩祖师为宗源，而其《二入四行》提供了最早的“修行论”框架。另一方面，《大乘起信论》以“本觉、始觉、不觉”与“真如与烦恼互相熏习”的结构，奠定中国佛学理解“心性论”的核心基础。
@@ -74,7 +85,10 @@ The result is a bilingual, academically structured text suitable for courses, pu
 
 ---
 
-## II. 本觉、始觉、不觉的结构｜Structure of Original, Initial, and Non-Awakening
+
+
+## 2. Structure of Original, Initial, and Non-Awakening | 本觉、始觉、不觉的结构
+
 中文
 
 《起信论》以三个核心概念说明“心性如何迷、如何悟”：
@@ -93,7 +107,7 @@ The result is a bilingual, academically structured text suitable for courses, pu
 
 此三者并非分离，而是互动的“觉悟动力学”。
 
-### English
+## English
 
 The Awakening of Faith explains the dynamics of mind through three key concepts:
 
@@ -111,9 +125,8 @@ The active movement of ignorance—a mode in which suchness is obscured, though 
 
 These three states form an interrelated dynamics of awakening.
 
----
 
-### III. 真如与烦恼的“互相熏习”｜Mutual Perfuming: Suchness & Afflictions
+### 3. 真如与烦恼的“互相熏习”｜Mutual Perfuming: Suchness & Afflictions
 中文
 
 《起信论》的天才之处在于揭示“心的动力性”：
@@ -160,7 +173,8 @@ These four modes form a bidirectional dynamics of awakening and delusion.
 
 ---
 
-### IV. 达摩祖师的二入四行｜Bodhidharma’s Two Entrances and Four Practices
+
+### 4. 达摩祖师的二入四行｜Bodhidharma’s Two Entrances and Four Practices
 中文
 
 达摩祖师以“理入”与“行入”开示修行全道。
@@ -203,7 +217,7 @@ Practice of Accordance with Dharma — aligning body and mind with suchness, thu
 
 ---
 
-### V. 二入四行 × 本觉体系：整合地图｜Integrated Map
+### 5. 二入四行 × 本觉体系：整合地图｜Integrated Map
 中文
 
 将两大系统整合，可得：
@@ -238,7 +252,7 @@ This becomes a complete map of mind structure × spiritual dynamics × practice 
 
 ---
 
-# 达摩体系与起信论体系对照
+# 6 达摩体系与起信论体系对照
 <table class="table table-striped table-hover table-dark">
   <thead>
     <tr>
@@ -277,7 +291,7 @@ This becomes a complete map of mind structure × spiritual dynamics × practice 
 </table>
 
 
-## 一图看懂：达摩二入（理入 & 行入）
+## 7 一图看懂：达摩二入（理入 & 行入）
 
 <!-- cover image Entrance of Principle -->
 
@@ -291,7 +305,7 @@ This becomes a complete map of mind structure × spiritual dynamics × practice 
 
 ---
 
-### VI. 结语：实践的核心｜Conclusion: The Heart of Practice
+### 8. 结语：实践的核心｜Conclusion: The Heart of Practice
 中文
 
 悟性不是被创造的，而是被唤醒的。
@@ -314,7 +328,7 @@ and non-awakening gradually dissolves.
 
 ---
 
-### VII. 观察、返照与觉性的展开｜Contemplation, Reflexive Illumination, and the Unfolding of Awareness
+### 9. 观察、返照与觉性的展开｜Contemplation, Reflexive Illumination, and the Unfolding of Awareness
 中文
 
 如果说“二入四行”提供修行的方法，《起信论》提供心性的结构，那么“观察与返照”便是两者之间的桥梁。
@@ -358,7 +372,7 @@ This aligns directly with internal perfuming by suchness.
 
 ---
 
-### VIII. 禅修的误区：用力、求境、逐念｜Common Errors in Meditation
+### 10. 禅修的误区：用力、求境、逐念｜Common Errors in Meditation
 中文
 
 在“始觉”的阶段，修行者常落入三个误区：
@@ -401,7 +415,7 @@ No state should be desired or grasped.
 
 ---
 
-### IX. 正修与助缘：四行如何“熏习”心性｜Direct Practice and Supportive Conditions
+### 11. 正修与助缘：四行如何“熏习”心性｜Direct Practice and Supportive Conditions
 中文
 
 四行不仅是修行步骤，更是“真如熏烦恼”的具体方式：
@@ -428,7 +442,7 @@ Through these practices, initial awakening deepens, original awakening shines fo
 
 ---
 
-### X. 本觉如何“转成”始觉？｜How Original Awakening Unfolds into Initial Awakening
+### 12. 本觉如何“转成”始觉？｜How Original Awakening Unfolds into Initial Awakening
 中文
 
 传统佛学认为“本觉”是已成之觉，“始觉”是未成之觉。
@@ -484,7 +498,7 @@ This is a dynamic actualization, not a linear path.
 
 ---
 
-### XI. 四行与“金刚经”的空性：无我、无取、无住｜The Four Practices and the Diamond Sutra
+### 13. 四行与“金刚经”的空性：无我、无取、无住｜The Four Practices and the Diamond Sutra
 中文
 
 《金刚经》强调的核心是：
@@ -535,7 +549,7 @@ Thus, the Four Practices embody the Diamond Sutra in lived experience.
 
 ---
 
-### XII. 一图看懂：觉悟动力 × 修行路径 × 心性结构（文字版）｜One-Page Overview (Text Version)
+### 14. 一图看懂：觉悟动力 × 修行路径 × 心性结构（文字版）｜One-Page Overview (Text Version)
 
 心性结构（Mind Structure）
 本觉（ground）
@@ -564,7 +578,7 @@ Thus, the Four Practices embody the Diamond Sutra in lived experience.
 </div>
 
 ---
-### 《云遮月心要经》（Pseudo-Sutra Style）
+###  15. 云遮月心要经 | Pseudo-Sutra Style
 
 如是我闻：
 

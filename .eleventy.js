@@ -5,6 +5,7 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const quotes = require("./src/_data/quotes.json");
 const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(eleventyConfig) {
   // ------------------------------------
@@ -19,6 +20,11 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.setLibrary("md", md);
+ // ------------------------------------
+  // syntaxHighlight
+  // ------------------------------------
+eleventyConfig.addPlugin(syntaxHighlight);
+
   // ------------------------------------
   // pluginSitemap
   // ------------------------------------

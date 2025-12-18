@@ -14,7 +14,7 @@ EN: The third chapter of the Diamond Sutra reveals the core wisdom of Bodhisattv
 
 金刚经原文引用：
 
-“须菩提，凡所有相，皆是虚妄。若见诸相非相，则见如来。”
+> “须菩提，凡所有相，皆是虚妄。若见诸相非相，则见如来。”
 
 中：
 

@@ -29,12 +29,13 @@ Practice is not about creating something new, but about releasing mistaken ident
 
 此身由**地、水、火、风**四大暂时和合而成：
 
-* **地大**：骨肉筋骸，终归尘土
-* **水大**：血液津液，流动不住
-* **火大**：体温热力，起灭无常
-* **风大**：呼吸气息，来去自然
+  >  ***地大**：骨肉筋骸，终归尘土
+    * **水大**：血液津液，流动不住
+    * **火大**：体温热力，起灭无常
+    * **风大**：呼吸气息，来去自然
 
-只是观照：**此身非我，乃因缘暂住。**
+只是观照：**此身非我，乃因缘暂住.** 
+
 
 Sit steadily and gently close your eyes. Know the body as it is.
 

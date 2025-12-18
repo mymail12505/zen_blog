@@ -94,7 +94,7 @@ Thus, disturbance indicates there are layers yet to be illumined—not the loss 
 
 ## 六、憨山式指引与金刚经音韵的提醒 · Hanshan-Style Guidance
 
-憨山大师常劝：修行贵在平常心，既不夸耀修为，也不为一时失落自惭。能知乱即是觉，能见云即是见月的影子。菩萨以自度为始，度他不执，这正与金刚经“见诸相非相”契合。
+> 憨山大师常劝：修行贵在平常心，既不夸耀修为，也不为一时失落自惭。能知乱即是觉，能见云即是见月的影子。菩萨以自度为始，度他不执，这正与金刚经“见诸相非相”契合。
 
 Master Hanshan advises: cultivate an ordinary, unpretentious heart. Recognizing disturbance is itself awakening; seeing the cloud is seeing the moon’s shadow. A bodhisattva begins with self-liberation and saves others without attachment—resonant with the Diamond Sutra’s teaching.
 
@@ -102,7 +102,10 @@ Master Hanshan advises: cultivate an ordinary, unpretentious heart. Recognizing 
 
 ## 结语 · Conclusion
 
-云遮月不为损月，乱意不为灭觉。将混乱视为自我修行的课题，能使我们更谦卑、更清醒。愿此文助你在日常里遇云时仍能见月，遇乱时仍能回心。
+
+ 云遮月不为损月，乱意不为灭觉。将混乱视为自我修行的课题，能使我们更谦卑、更清醒。愿此文助你在日常里遇云时仍能见月，遇乱时仍能回心。
+
+
 
 Clouds do not harm the moon; disturbance does not annihilate awareness. Treat confusion as the curriculum of practice; may this piece help you see the moon through cloud, and return to heart through disturbance.
 
