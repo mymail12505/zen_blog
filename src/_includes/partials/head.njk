@@ -1,0 +1,13 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ title }}</title>
+
+<!-- Prevent theme flash -->
+<script>
+  const theme = localStorage.getItem("theme");
+  if (theme) {
+    document.documentElement.setAttribute("data-bs-theme", theme);
+  }
+</script>
+
+{% include "partials/styles.njk" %}

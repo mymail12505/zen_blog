@@ -1,0 +1,21 @@
+<script>
+  const toggle = document.getElementById("themeToggle");
+  const root = document.documentElement;
+  const storedTheme = localStorage.getItem("theme");
+
+  // Set theme based on stored preference or system preference
+  if (storedTheme) {
+    root.setAttribute("data-bs-theme", storedTheme);
+    toggle.checked = storedTheme === "dark";
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    root.setAttribute("data-bs-theme", "dark");
+    toggle.checked = true;
+  }
+
+  // Listen for toggle changes
+  toggle.addEventListener("change", () => {
+    const theme = toggle.checked ? "dark" : "light";
+    root.setAttribute("data-bs-theme", theme);
+    localStorage.setItem("theme", theme);
+  });
+</script>

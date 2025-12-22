@@ -5,6 +5,7 @@ zen_blog
 ├─ folder-tree.txt
 ├─ netlify.toml
 ├─ old_data
+│  └─ base.njk
 ├─ package-lock.json
 ├─ package.json
 ├─ src
@@ -124,6 +125,13 @@ zen_blog
 │     │  ├─ post.njk
 │     │  └─ testimonial.njk
 │     └─ partials
+│        ├─ bootstrap-js.njk
+│        ├─ footer.njk
+│        ├─ head.njk
+│        ├─ navbar.njk
+│        ├─ prism-js.njk
+│        ├─ styles.njk
+│        └─ theme-toggle.njk
 └─ _site
    ├─ admin
    │  └─ config.yml

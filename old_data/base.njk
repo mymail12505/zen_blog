@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include "partials/head.njk" %}
+</head>
+<body class="d-flex flex-column">
+
+  {% include "partials/navbar.njk" %}
+
+  <!-- Page wrapper -->
+  <div class="cover-container container text-center flex-grow-1 pt-5">
+    <main class="px-3">
+      {{ content | safe }}
+    </main>
+
+    {% include "partials/footer.njk" %}
+  </div>
+
+  {% include "partials/prism-js.njk" %}
+  {% include "partials/bootstrap-js.njk" %}
+  {% include "partials/theme-toggle.njk" %}
+
+</body>
+</html>
