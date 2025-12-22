@@ -11,9 +11,9 @@ eleventyExcludeFromCollections: true
 This is the content of the Third post.
 
 ```js
-function hello(name) {
-  console.log(`Hello, ${name}`);
-}
+
+ 本觉→不觉→始觉→本觉
+
 ```
 ```html
 Hello world
