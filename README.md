@@ -1,11 +1,12 @@
+
 ```
 zen_blog
 ├─ .eleventy.js
 ├─ folder-tree.txt
 ├─ netlify.toml
+├─ old_data
 ├─ package-lock.json
 ├─ package.json
-├─ README.md
 ├─ src
 │  ├─ admin
 │  │  └─ config.yml
@@ -19,6 +20,7 @@ zen_blog
 │  │     ├─ favicon.ico
 │  │     └─ site.webmanifest
 │  ├─ blog
+│  │  ├─ awareness-cycle.md
 │  │  ├─ Before-the-Illness-of-the-Mind.md
 │  │  ├─ bodhisattva-disturbed-mind.md
 │  │  ├─ Breath-Mind-and-Non-Attachment.md
@@ -47,6 +49,7 @@ zen_blog
 │  │  └─ Zen-Samadhi.md
 │  ├─ contact.njk
 │  ├─ css
+│  │  ├─ prism-ghcolors.css
 │  │  └─ styles.css
 │  ├─ images
 │  │  ├─ article-1.jpg
@@ -54,6 +57,7 @@ zen_blog
 │  │  ├─ article-3.jpg
 │  │  ├─ article-4.jpg
 │  │  ├─ Awakening Initial Awakening Ignorance.jpg
+│  │  ├─ awareness-cycle.jpg
 │  │  ├─ Before the Illness of the Mind.jpg
 │  │  ├─ Bodhidharma.jpg
 │  │  ├─ bodhisattva-disturbed-mind.jpg
@@ -91,6 +95,9 @@ zen_blog
 │  │  ├─ zen-sudden-enlightenment.jpg
 │  │  └─ zen-what-is-zen.jpg
 │  ├─ index.njk
+│  ├─ js
+│  │  └─ plugins
+│  │     └─ line-numbers
 │  ├─ projects
 │  │  ├─ index.njk
 │  │  └─ project.njk
@@ -112,10 +119,11 @@ zen_blog
 │     ├─ Home_blog.njk
 │     ├─ Home_projects.njk
 │     ├─ Home_testimonials.njk
-│     └─ layouts
-│        ├─ base.njk
-│        ├─ post.njk
-│        └─ testimonial.njk
+│     ├─ layouts
+│     │  ├─ base.njk
+│     │  ├─ post.njk
+│     │  └─ testimonial.njk
+│     └─ partials
 └─ _site
    ├─ admin
    │  └─ config.yml
@@ -129,6 +137,7 @@ zen_blog
    │     ├─ favicon.ico
    │     └─ site.webmanifest
    ├─ blog
+   │  ├─ awareness-cycle
    │  ├─ Before-the-Illness-of-the-Mind
    │  ├─ bodhisattva-disturbed-mind
    │  ├─ Breath-Mind-and-Non-Attachment
@@ -159,6 +168,7 @@ zen_blog
    │  └─ Zen-Samadhi
    ├─ contact
    ├─ css
+   │  ├─ prism-ghcolors.css
    │  └─ styles.css
    ├─ images
    │  ├─ article-1.jpg
@@ -166,6 +176,7 @@ zen_blog
    │  ├─ article-3.jpg
    │  ├─ article-4.jpg
    │  ├─ Awakening Initial Awakening Ignorance.jpg
+   │  ├─ awareness-cycle.jpg
    │  ├─ Before the Illness of the Mind.jpg
    │  ├─ Bodhidharma.jpg
    │  ├─ bodhisattva-disturbed-mind.jpg
@@ -202,6 +213,9 @@ zen_blog
    │  ├─ zen-samadhi.jpg
    │  ├─ zen-sudden-enlightenment.jpg
    │  └─ zen-what-is-zen.jpg
+   ├─ js
+   │  └─ plugins
+   │     └─ line-numbers
    ├─ projects
    │  ├─ compost-monitor
    │  ├─ garden-sensor
