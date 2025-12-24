@@ -1,1 +1,6 @@
 *.html
+*.css
+/_site/css
+*.njk
+*.md
+*.css

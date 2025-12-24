@@ -210,3 +210,18 @@ pre {
   background-color: var(--bs-tertiary-bg);
   border-radius: .375rem;
 }
+/* =========================
+   Responsive
+   ========================= */
+
+.gradient-text{
+    text-transform:uppercase;
+    font-size: 3rem;
+    background: linear-gradient(to right, #f32170, #ffeb07,#2196f3,#ff00eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
