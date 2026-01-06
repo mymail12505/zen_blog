@@ -140,6 +140,7 @@ eleventyConfig.addPlugin(pluginSitemap, {
       });
   });
 
+
   eleventyConfig.addCollection("zen", function (collectionApi) {
     return collectionApi
       .getFilteredByGlob("src/blog/*.md")
