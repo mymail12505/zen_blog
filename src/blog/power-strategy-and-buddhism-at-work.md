@@ -22,18 +22,19 @@ In the workplace, *power and strategy* are often seen as survival tools—even p
 **中文**  
 职场权谋并不只意味着阴谋或算计，它更广义地指：
 
-- 对人性与组织结构的理解
-- 对资源、信息与时机的判断
-- 在复杂关系中保护自身、推进事务的能力
+> 对人性与组织结构的理解
+> 对资源、信息与时机的判断
+> 在复杂关系中保护自身、推进事务的能力
 
-问题不在于“有没有权谋”，而在于**动机与方式**。
+问题不在于 ` “有没有权谋” `，而在于**动机与方式**。
 
 **English**  
+
 Workplace strategy does not necessarily mean manipulation. At a broader level, it refers to:
 
-- Understanding human behavior and organizational dynamics  
-- Judging resources, information, and timing  
-- Navigating complex relationships while protecting oneself and moving work forward
+>  [!NOTE] Understanding human behavior and organizational dynamics  
+> Judging resources, information, and timing  
+> Navigating complex relationships while protecting oneself and moving work forward
 
 The real question is not *whether* power is used, but *why* and *how*.
 
@@ -71,12 +72,37 @@ What Buddhism cautions against is not *means*, but:
 
 ## 权谋 vs. 善巧方便｜Manipulation vs. Skillful Means
 
-| 层次 | 权谋（未觉照） | 善巧方便（觉照中） |
-|----|---------------|-------------------|
-| 动机  | 自我保护 / 控制   | 减少伤害 / 利益共存 |
-| 心态  | 恐惧、焦虑        | 清醒、稳定 |
-| 结果  | 关系紧张          | 关系可持续 |
-| 内在代价 | 内耗、失真      | 内心清明 |
+<table class="table table-striped table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">层次</th>
+      <th scope="col">权谋（未觉照）</th>
+      <th scope="col">善巧方便（觉照中）</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>动机</th>
+      <td>自我保护 / 控制</td>
+      <td>减少伤害 / 利益共存得</td>
+    </tr>
+    <tr>
+      <th>心态</th>
+      <td>恐惧、焦虑</td>
+      <td>清醒、稳定</td>
+    </tr>
+    <tr>
+      <th>结果</th>
+      <td>关系紧张</td>
+      <td>关系可持续</td>
+    </tr>
+    <tr>
+      <th>内在代价</th>
+      <td>内耗、失真</td>
+      <td>内心清明</td>
+    </tr>
+       </tbody>
+</table>
 
 **关键差别在于：是否执著“我一定要赢”。**
 

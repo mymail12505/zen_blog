@@ -4,3 +4,7 @@
 *.njk
 *.md
 *.css
+*.js
+*.js
+.eleventy.js
+*.js
