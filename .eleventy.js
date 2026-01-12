@@ -7,6 +7,8 @@ const quotes = require("./src/_data/quotes.json");
 const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
+
+
 module.exports = function(eleventyConfig) {
   // ------------------------------------
   // Markdown-It (replace Eleventy default)

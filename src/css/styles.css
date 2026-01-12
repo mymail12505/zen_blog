@@ -226,3 +226,21 @@ pre {
     min-height: 10vh;
     display: block;
 }
+
+/* =========================
+  markdown table
+   ========================= */
+
+table {
+  width: 80%; /* Sets the table width */
+  border-collapse: collapse; /* Merges borders for a clean look */
+  margin: auto; /* Centers the table on the page */
+}
+
+th, td {
+  border: 1px solid #999; /* Adds borders to cells */
+  padding: 0.5em; /* Adds space around content */
+  text-align: left; /* Aligns text to the left */
+}
+
+

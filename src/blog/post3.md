@@ -5,7 +5,7 @@ tags: posts
 layout: layouts/post.njk
 image: "/images/article-3.jpg"
 excerpt: "The third post covers more advanced topics in our series."
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 This is the content of the Third post.
@@ -102,3 +102,8 @@ Inspired by [Andy's article](https://piccalil.li/blog/how-i-build-a-button-compo
 
 Let me know if you have any questions or issues with the update.
 I am happy to help you out. Maybe you'll want to wait a bit, as I will add some more fixes, no doubt.
+
+| Name | Description | URL |
+|:--- |:--- | --- |
+| WordPress | Free and open-source content management system written in PHP, and paired with a MySQL or MariaDB database. | [Read More]() |
+| Ghost | Free and open source blogging platform written in JavaScript. | [Read More]() |
