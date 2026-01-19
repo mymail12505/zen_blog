@@ -174,9 +174,17 @@ blockquote footer { display:block; margin-top:0.5rem; font-size:0.875rem; color:
    Images
    ========================= */
 .responsive-img, article img, .post-content img, .card-text img {
-  max-width:100%; height:auto; display:block; margin:1.2rem auto;
-}
+  max-width:100%; height: max(10rem, 35vh); display:block; margin:1.2rem auto;
+  object-fit: cover;
+  /* height: auto; */
 
+}
+.card-title {
+   background: linear-gradient(to right, #f32170, #ffeb07,#2196f3,#ff00eb);
+   -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: flex;
+}
 /* =========================
    Footer
    ========================= */
