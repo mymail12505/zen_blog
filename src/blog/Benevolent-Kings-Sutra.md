@@ -10,7 +10,7 @@ tags:
   - Impermanence
   - Emptiness
 language: zh-en
-image: /images/Benevolent Kings Sutra.jpg
+image: /images/Benevolent-Kings-Sutra.jpg
 ---
 
 ## 中文｜刹那之间，即生即空
