@@ -1,6 +1,6 @@
 ---
 title: "无我与烦恼 | No-Self and Suffering"
-date: 2026-05-03
+date: 2026-05-04
 tags: ["zen", "philosophy", "hanshan", "bilingual"]
 layout: layouts/post.njk
 image: /images/No-Self and Suffering.jpg
