@@ -4,7 +4,7 @@ description: "从离念离像的觉知观察中，体会无明与佛性不二、
 date: 2026-06-22
 layout: layouts/post.njk
 tags: ["Zen", "永嘉禅师", "佛性"]
-image: /images/The Nature of Ignorance is Buddha-Nature.jpg
+image: /images/The Nature of Ignorance.jpg
 language: zh-en
 ---
 
